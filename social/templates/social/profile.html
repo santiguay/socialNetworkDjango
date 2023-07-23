@@ -17,7 +17,14 @@
 	{% endif %}
 	
 	
-    <form action="" method="post"">
+    <form action="" method="post">
+
+			<label for="">Cambiar perfil</label>
+			{% csrf_token %}
+
+			<input type="file">
+			<button type="submit">Cambiar</button>
+		</form>
 			
 
 
